@@ -11,11 +11,13 @@ angular.module('ngLazyDemoApp',['ngLazy'])
                         '</p>';
           var n = 0;
           var list = [];
-          while (n < 1250) {
+          while (n < 9001) {
             var string =  'This is a list item and it\'s ID is ' + n;
             list.push(string);
             n++;
           }
+          var string =  'It\'s over 9000';
+          list.push(string);
           var returnList = {};
           returnList.data = {};
           returnList.data.list = list;
