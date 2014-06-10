@@ -1,6 +1,6 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   padding-bottom: 20px;
 }
 
@@ -78,9 +78,10 @@ body {
   }
 }
 .header-affix{
+  position: fixed;
   background-color: white;
   width: 700px;
-  padding-top: 10px;
+  padding-top: 20px;
   top:0;
 }
 .config-affix{
@@ -105,4 +106,7 @@ body {
 }
 .right {
   float: right;
+}
+.list {
+  margin-top: 420px;
 }

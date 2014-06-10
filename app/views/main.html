@@ -1,17 +1,9 @@
-  <div class="col-sm-0 col-md-0 col-lg-2">
-    <div>
-<!--       <iframe src="http://ghbtns.com/github-btn.html?user=adrichman&repo=ngLazy&type=fork&count=false&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
- -->    </div>
-  </div>
+<div class="col-sm-0 col-md-0 col-lg-2">
+</div>
 <div class="col-sm-10 col-md-8 col-lg-6">
   <div class="container">
     <div data-spy="affix" data-offset-top="60" class="header-affix">
       <div class="header">
-        <!-- <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul> -->
         <h3 class="text-muted">ngLazy demo</h3>
       </div>
 
@@ -24,21 +16,23 @@
         <p><a class="btn btn-lg btn-success" ng-href="http://github.com/adrichman/ngLazy">get it at github <span class="glyphicon glyphicon-ok"></span></a></p>
       </div>
     </div>
-    <lazy-load
-      lazy-data="data" 
-      lazy-data-service="dataService" 
-      lazy-fetch-method="getList" 
-      lazy-range=" {{ range }}" 
-      lazy-data-collection-key="list" 
-      lazy-data-keys="['list']" 
-      lazy-start-delay="{{ startDelay }}" 
-      lazy-append-delay="{{ appendDelay }}"
-      lazy-spinner-color="{{ spinnerColor }}"
-    >
-      <div class="row marketing" ng-repeat="item in data.list">
-        <h4>{{ item }}</h4>
-      </div>
-    </lazy-load>
+  </div>
+  <div class="list container">
+      <lazy-load
+        lazy-data="data" 
+        lazy-data-service="dataService" 
+        lazy-fetch-method="getList" 
+        lazy-range=" {{ range }}" 
+        lazy-data-collection-key="list" 
+        lazy-data-keys="['list']" 
+        lazy-start-delay="{{ startDelay }}" 
+        lazy-append-delay="{{ appendDelay }}"
+        lazy-spinner-color="{{ spinnerColor }}"
+      >
+        <div class="row marketing" ng-repeat="item in data.list">
+          <h4>{{ item }}</h4>
+        </div>
+      </lazy-load>
   </div>
 </div>
 <div class="col-sm-2 col-md-4 col-lg-2">
