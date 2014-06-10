@@ -17,6 +17,16 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="bower_components/ngLazy/dist/ngLazy.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
   </head>
   <body ng-app="ngLazyDemoApp">
     <!--[if lt IE 7]>
@@ -34,16 +44,6 @@
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- endbower -->
     <!-- endbuild -->
-
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="bower_components/ngLazy/dist/ngLazy.min.js"></script>
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <!-- endbuild -->
-</body>
+  </body>
 </html>
