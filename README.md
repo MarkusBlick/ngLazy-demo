@@ -1,4 +1,4 @@
 #ngLazy Demo
 
-Demo App for ngLazy AngularJS Librarythis is a test
+Demo App for ngLazy AngularJS Library
 this is another test
