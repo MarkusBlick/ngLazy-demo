@@ -9,7 +9,7 @@ angular.module('ngLazyDemoApp',['ngLazy'])
         $timeout(function(){
           var list = [];
           while (n < 9001) {
-            string =  'This is a list item and it\'s ID is ' + n;
+            string =  'This is a list item and its ID is ' + n;
             list.push(string);
             n++;
           }
