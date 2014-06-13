@@ -1,4 +1,5 @@
 #ngLazy Demo
 
-Demo App for ngLazy AngularJS Library
-this is another test
+A Demo App for the [ngLazy](http://github.com/adrichman/ngLazy) AngularJS Library.
+
+See it live @ [http://ng-Lazy.com](http://ng-Lazy.com)
