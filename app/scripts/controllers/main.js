@@ -31,7 +31,7 @@ angular.module('ngLazyDemoApp',['ngLazy'])
         $scope.data.list = [];
         $scope.range = '18';
         $scope.startDelay = '150';
-        $scope.appendDelay = '2500';
+        $scope.appendDelay = '1000';
         $scope.spinnerColor = '#4FA7D9';
 
         $scope.$watch('spinnerColor', function(newVal){
