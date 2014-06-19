@@ -25,7 +25,7 @@ angular.module('ngLazyDemoApp',['ngLazy'])
       };
       return { getList : getList };
     }])
-  .controller('MainCtrl', ['$scope','dataService','$timeout', function ($scope, dataService, $timeout) {
+  .controller('MainCtrl', ['$scope','$timeout', function ($scope, $timeout) {
         
         $scope.data = {};
         $scope.data.list = [];
