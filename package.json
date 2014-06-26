@@ -1,9 +1,10 @@
 {
   "name": "nglazydemo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "morgan": "~1.1.1",
-    "express": "~4.4.2"
+    "express": "~4.4.2",
+    "protractor": "~1.0.0-rc1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -32,12 +33,14 @@
     "grunt-karma": "~0.8.3",
     "karma-phantomjs-launcher": "~0.1.4",
     "karma": "~0.12.16",
-    "karma-jasmine": "~0.1.5"
+    "karma-jasmine": "~0.1.5",
+    "grunt-protractor-runner": "~1.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
   }
 }

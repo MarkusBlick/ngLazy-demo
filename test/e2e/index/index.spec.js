@@ -13,7 +13,8 @@ describe("ngLazy-demo", function(){
       expect(element(by.css('lazy-load')).isPresent()).toBe(true);
     });
 
-  })
+  });
+  
   var range;
   describe("lazy-load directive", function(){
     it ("should immediately display a spinner", function(){
