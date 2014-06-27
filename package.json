@@ -1,6 +1,6 @@
 {
   "name": "nglazydemo",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "dependencies": {
     "morgan": "~1.1.1",
     "express": "~4.4.2",
