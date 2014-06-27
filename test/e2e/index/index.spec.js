@@ -53,7 +53,8 @@ describe("ngLazy-demo", function(){
     });
 
     it("should add elements to the DOM when it scrolls to the bottom of the list", function(){
-      browser.executeScript('window.scrollTo(0,' + 600 + ');').then(function(){
+      browser.sleep(2000);
+      browser.executeScript('window.scrollTo(0,' + 800 + ');').then(function(){
         browser.sleep(2000);
         expect(element.all(by.css('.ng-binding')).count()).toEqual(range * 2);
       })
