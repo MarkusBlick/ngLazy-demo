@@ -45,7 +45,6 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  width: 80%;
 }
 .jumbotron .btn {
   font-size: 21px;
@@ -87,12 +86,12 @@ body {
 }
 .config-affix{
   float:right;
-  display: inline-block;
   position: fixed;
   margin-top: 0;
-  padding-top: 95px;
+  padding-bottom: 20px;
   background-color: white;
-  top:100;
+  top:0;
+  right:0;
 }
 
 .big-list {
